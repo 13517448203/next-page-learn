@@ -1,13 +1,16 @@
 import React from 'react'
 import { useRouter } from 'next/router'
 
-function index() {
+function BlogPage() {
   const router = useRouter()
+  const { id } = router.query
+  console.log(id)
+
   return (
     <div>
-      dynamic route --- {router.query.dynamic}
+      blog page --- {router.query.id}
     </div>
   )
 }
 
-export default index
+export default BlogPage

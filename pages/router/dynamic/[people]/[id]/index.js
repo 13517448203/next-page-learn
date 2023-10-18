@@ -5,7 +5,7 @@ function index() {
   const router = useRouter()
   return (
     <div>
-      dynamic route --- {router.query.id}
+      People ID --- {router.query.id}
     </div>
   )
 }
