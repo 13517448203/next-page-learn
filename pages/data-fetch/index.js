@@ -7,10 +7,10 @@ function index() {
       <h1>Data fetch</h1>
       <ul>
         <li>
-          <Link href="/data-fetch/client">客户端获取数据</Link>
+          <Link href="/data-fetch/client" className="link">客户端获取数据</Link>
         </li>
         <li>
-          <Link href="/data-fetch/pre-render">预渲染</Link>
+          <Link href="/data-fetch/pre-render" className="link">预渲染</Link>
         </li>
       </ul>
     </div>

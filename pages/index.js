@@ -1,5 +1,5 @@
-import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -10,10 +10,10 @@ export default function Home() {
         </h1>
         <ul>
           <li>
-            <Link href="/router" className={styles.link}>基于文件的路由</Link>
+            <Link href="/router" className="link">基于文件的路由</Link>
           </li>
           <li>
-            {/* <Link href="/router">router</Link> */}
+            <Link href="/data-fetch" className="link">数据获取</Link>
           </li>
         </ul>
       </main>

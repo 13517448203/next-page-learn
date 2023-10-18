@@ -12,7 +12,12 @@ function index(props) {
         {
           products.map(item => (
             <li key={item.id}>
-              <Link href={`/data-fetch/pre-render/static/${item.id}`}>{item.title}</Link>
+              <Link
+                href={`/data-fetch/pre-render/static/${item.id}`}
+                className="link"
+              >
+                {item.title}
+              </Link>
             </li>
           ))
         }

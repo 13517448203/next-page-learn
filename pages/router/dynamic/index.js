@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from 'styles/Home.module.css'
 import Link from 'next/link'
 
 function index() {
@@ -17,7 +16,7 @@ function index() {
             <li key={person.id}>
               <Link
                 href={`/router/dynamic/${person.id}`}
-                className={styles.link}
+                className="link"
               >
                 {person.name}
               </Link>
@@ -26,7 +25,7 @@ function index() {
                   pathname: '/router/dynamic/[id]',
                   query: { id: person.id}
                 }}
-                className={styles.link}
+                className="link"
               >
                 {person.name}
               </Link> */}
