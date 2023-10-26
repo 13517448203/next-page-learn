@@ -12,6 +12,9 @@ function index() {
         <li>
           <Link href="/data-fetch/pre-render" className="link">预渲染</Link>
         </li>
+        <li>
+          <Link href="/data-fetch/server" className="link">服务端渲染</Link>
+        </li>
       </ul>
     </div>
   )
