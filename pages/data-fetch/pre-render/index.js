@@ -1,17 +1,14 @@
-import Link from 'next/link'
 import React from 'react'
 
 function index() {
   return (
     <div>
-      <h1>Data fetch</h1>
+      <h1>Pre render</h1>
+      <h3>默认情况下，Next.js预渲染每个页面</h3>
       <ul>
-        <li>
-          <Link href="/data-fetch/pre-render/default" className="link">默认预渲染</Link>
-        </li>
-        <li>
-          <Link href="/data-fetch/pre-render/static" className="link">静态生成</Link>
-        </li>
+        <li>Product 1</li>
+        <li>Product 2</li>
+        <li>Product 3</li>
       </ul>
     </div>
   )
