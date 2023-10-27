@@ -13,7 +13,7 @@ export default function Home() {
             <Link href="/router" className="link">基于文件的路由</Link>
           </li>
           <li>
-            <Link href="/data-fetch" className="link">数据获取</Link>
+            <Link href="/data-fetch" className="link">数据获取与渲染</Link>
           </li>
         </ul>
       </main>
